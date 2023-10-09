@@ -1,33 +1,36 @@
 * {
     margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 header {
     padding: 40px;
     background-color: rgba(228, 136, 16, 255);
-    text-align: center;
-}
-body {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 h2 {
-    text-align: center;
     text-transform: uppercase;
 }
+
 h3 {
-    text-align: center;
     text-transform: capitalize;
 }
 h4 {
     margin-left: 50px;
     margin-right: 40px;
 }
+
 main {
     background-image: url(../img/chevron.webp);
     background-repeat: repeat;
 }
+
 .container {
     max-width: 800px;
     margin: 20px auto;
@@ -36,6 +39,7 @@ main {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 .containerOrange {
     max-width: 800px;
     margin: 20px auto;
@@ -44,15 +48,17 @@ main {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(228, 136, 16, 255);
 }
+
 .containerFlex {
     display: flex;
     align-items: center;
     margin-top: 30px;
 }
+
 .textbox {
     margin: 20px;
 }
+
 footer {
     background-color: rgba(228, 136, 16, 255);
-    text-align: center;
 }
